@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>VANRITTO</title>
+        <!-- Link to the CSS Style sheet -->
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Link to the JavaScript sheet -->
+        <script src="vanritto.js"></script>
+    </head>
+
+    <body>
+    
+	<!--navbar-->
+	<div class="navbar">
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" id="home">HOME</a>
+				<div class="dropdown">
+					<button class="dropbtn">OUR PROJECT <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="WEBSITE.html"><i class="fa fa-globe"></i>  THE WEBSITE</a>
+						<a href="WEBMAP.html"><i class='fas fa-map'></i>  THE WEB MAP</a>
+						<a href="DATBASE.html"><i class="fa fa-database" aria-hidden="true"></i> THE DATBASE</a>
+					</div>
+				</div> 
+				<a href="aboutus.html"><i class="fa fa-user"></i> ABOUT US</a>
+				<a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+	<!--End Navbar-->
+
+	<!--HEADER-->
+    <div class="header">
+        <img src="images/logobanner.png" alt="Logobanner" height="100%">
+    </div>
+    <div id="headertitle">
+        <span class="headertext">THE WEB MAP</span>
+    </div>
+	<!--END HEADER-->
+
+	<!--Body-->
+	<div class="content2">
+            <div class="textleft">
+                <h2>Mapbox Tutorial</h2>
+                
+                <p>The Mapbox tutorial, <a href="https://docs.mapbox.com/mapbox-gl-js/example/animate-point-along-route/" target=”_blank” class="links">Animate a Point Along a Route</a>, 
+                    was a great discovery for the team after it had been found that Live Tracking would not be possible and 
+                    they would need to find a new way to solve the Problem Statement. </p>
+            
+                <p>As seen in the example to the right, a point on a map is animated and moves along a line which represents a route. 
+                    This helped the team realize they could “fake it 'till they make it” and animate the bicycle event and Live Tracking was 
+                    never spoken of again.</p>
+            
+                <p>The smooth animation of the point along the route displayed by this Mapbox tutorial utilizes 
+                    <a href="http://turfjs.org/" target="_blank" class="links">Turf.js</a>, an open-source JavaScript library that is primarily 
+                    used for spatial analysis. <a href="https://docs.mapbox.com/help/glossary/turf/#:~:text=js%20is%20an%20open%2Dsource,js" target="_blank" class="links">Turf.js</a> 
+                    is known to work extremely well with <a href="https://docs.mapbox.com/help/glossary/mapbox-gl-js/" target="_blank" class="links"> Mapbox GL JS</a>, 
+                    another open-source JavaScript library which works by using <a href="https://docs.mapbox.com/help/glossary/mapbox-gl/" target="_blank" class="links"> Mapbox GL</a> 
+                    in order to render interactive client-side web maps.</p>
+            </div>  
+	        <div class="imageimage">
+				<iframe src="https://vanritto.github.io/libertyproject/storymap/index.html" height="140%" width="100%" style="border:none;"></iframe>
+			</div>     
+        </div>
+	<!--End Body-->
+     
+	<!-- FOOTER -->
+	 <div >
+		<div class= "footer">
+		<footer>
+			<p><a href="https://www.instagram.com/THE_LIBERTYPROJECT/" target="_blank" class="fa fa-instagram w3-hover-opacity"></a><span> | </span><a href="index.html">Home </a><span> | </span><a href="aboutus.html"><i class="fa fa-arrow-up"></i> Back To Top</a></p>
+			
+			<div >
+				<div class="logo1"><a href="https://www.instagram.com/THE_LIBERTYPROJECT/" target="_blank"><img src="images/lbplogoCircle.png" alt="Liberty Project Logo"></a></div>
+				<div class="logo2"><img src="images/LogowhiteBG.png" alt="Vanritto Logo"></div>
+			</div>
+		</footer>
+		</div>
+	</div>
+	<!-- END FOOTER -->
+		
+		
+		
+		
+
+   </body>
+
+</html>
+
