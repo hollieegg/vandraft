@@ -505,6 +505,13 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   margin-top: 2%;
   height:auto ;
 }
+#websitebanner:hover{
+  box-shadow: 4px 4px 1px rgba(193, 194, 194, 0.657);
+  width:80%;
+  margin-right:20% ;
+  margin-left:10% ;
+
+}
 #websitebanner img{
   max-width:100%
   
