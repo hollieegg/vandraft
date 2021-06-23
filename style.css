@@ -309,7 +309,7 @@ h1 {
     }
     .landing a {
       position: fixed;
-      top: 55vh;
+      top: 50vh;
 
       right: 27%;
       color: #fff;
@@ -328,31 +328,36 @@ h1 {
 
 @media screen and (max-width: 1648px) {
   .landing a{
-     top: 50vh;
+     top: 45vh;
        }}
 @media screen and (max-width: 1500px) {
 .landing a{
     
-  top: 45vh;
+  top: 40vh;
       }}
 @media screen and (max-width: 1300px) {
 .landing a{
     
-  top: 40vh;
+  top: 35vh;
       }}
 @media screen and (max-width: 1150px) {
   .landing a{
       
-    top: 35vh;
+    top: 30vh;
         }}
 @media screen and (max-width: 1000px) {
+  .landing a{
+      top:25vh;
+  }
+  }
+@media screen and (max-width: 890px) {
 .landing a{
     top:20vh;
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
   .landing a{
-      top:10vh;
+      top:15vh;
   }
   }
 
