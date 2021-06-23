@@ -517,6 +517,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   
 }
 /************ SOLUTIONS AND DISCOVERIES *********/
+/*
 .content2 {
   padding-left:10%;
   padding-right:10%;
@@ -526,7 +527,20 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   overflow: hidden;
   text-align: left;
   line-height: 150%;
-  /*height: 80vh; */
+  /*height: 80vh; 
+}*/
+
+
+.content2 {
+  padding-left: 5%;
+  /* padding-right: 2.5%; */
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 95%;
+  overflow: hidden;
+  text-align: left;
+  line-height: 150%;
+  /* height: 80vh; */
 }
 .content2 h1{
     margin-bottom:5%;
