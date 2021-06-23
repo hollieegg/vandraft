@@ -497,7 +497,18 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   overflow:hidden;
   width: 80%;
 }
-
+/************website***********************/
+#websitebanner{
+  width:70%;
+  margin-right:20% ;
+  margin-left:15% ;
+  margin-top: 2%;
+  height:auto ;
+}
+#websitebanner img{
+  max-width:100%
+  
+}
 /************ SOLUTIONS AND DISCOVERIES *********/
 .content2 {
   padding-left:10%;
@@ -508,7 +519,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   overflow: hidden;
   text-align: left;
   line-height: 150%;
-  height: 80vh; 
+  /*height: 80vh; */
 }
 .content2 h1{
     margin-bottom:5%;
