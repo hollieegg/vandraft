@@ -517,22 +517,21 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
 /************website***********************/
 #websitebanner{
-  width:70%;
-  margin-right:20% ;
-  margin-left:15% ;
-  margin-top: 2%;
+  max-width: 100%;
+  width:80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   height:auto ;
 }
 #websitebanner:hover{
-  box-shadow: 4px 4px 1px rgba(193, 194, 194, 0.657);
-  width:80%;
-  margin-right:20% ;
-  margin-left:10% ;
-
+  box-shadow: 4px -5px 5px rgba(225, 226, 226, 0.657);
+  width:85%;
+  margin-right:8% ;
+  margin-left:8% ;
 }
 #websitebanner img{
   max-width:100%
-  
 }
 /************ SOLUTIONS AND DISCOVERIES *********/
 /*
@@ -604,9 +603,12 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
 
 .imageimage {
-  float: left;
-  width: 70%;
-  height: 500px;
+  max-width: 100%;
+  width:80%;
+  height: 700px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .buttonsol {
