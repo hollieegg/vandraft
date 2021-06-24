@@ -404,16 +404,18 @@ transition-delay: 0.5s;
 
 @media screen and (max-width: 1400px) {
 .overlay {
-  
   overflow: auto;
 }}
 
 
 .overlay p{
-padding: 10%;
+  padding-top: 8%;
+  padding-right:10%;
+  padding-bottom: 1%;
+  padding-left: 12%;
 font-family: "arial", sans-serif;
 font-size: larger;
-text-align: left;
+text-align:left;
 overflow: auto;
 color:white;
 margin-top: 6%;
@@ -421,23 +423,33 @@ line-height: 1.6;
 }
 
 #aboutusIcon {
-   text-align: center;
-   font-size:4em;
+   display: inline-grid;
+    margin-right: 4%; 
+    text-align: left;
+    margin-bottom: 8%;
+
 }
 #aboutusIcon a{
- padding: 4%;
+  color:white;
+  white-space: nowrap;}
+#aboutusIcon a:hover{
+  color: #58595c;
+}  
+#aboutusIcon span{
+  font-size:2.2em;
+  padding: 2%;
 }
 .fa-linkedin-square{
 color:white;
 }
 .fa-linkedin-square:hover{
-    color: #272725;
+    color: #58595c;
 }
 .fa-envelope{
   color:white;
   }
   .fa-envelope:hover{
-      color: #272725;
+      color: #58595c;
   }
 @media screen and (max-width: 1000px){
 .overlay p{
@@ -445,12 +457,20 @@ color:white;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-right: 10%;
-  font-size: 160%;
-}}
+  font-size:medium;
+
+}
+.overlay p:hover{
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 10%;
+  font-size:large;
+}
+}
 
 @media screen and (max-width: 1000px){
 .column h3,h4{
-  
   font-size: 110%;
 }}
 
