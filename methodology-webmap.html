@@ -65,65 +65,52 @@
 			<div class="content5">
 				
 				<div>
-					<h2>Custom Base Map Style</h2>
+					<h2>GeoJSON Route Layer and Stops</h2>
 
-						<p>The original idea that the team had come up with to solve the Problem Statement 
-							was to use Live Tracking where the rider’s live location would be shown on 
-							the webpage created for the fundraising event. This would allow the public 
-							to see how the riders were progressing on the route during the day and over 
-							the course of the multi-day event. During this time, the team was looking at 
-							various platforms that would allow them to generate web maps. This included 
-							looking at <a href=" https://www.mapbox.com/" target="_blank" class="links">Mapbox</a>, 
-							<a href="https://leafletjs.com/" target="_blank" class="links">Leaflet</a>, 
-							<a href="https://www.google.ca/maps/about/mymaps/" target="_blank" class="links"> Google My Maps</a>, 
-							and widgets for social media.</p>
+						<p>The Client provided data layers for the bike route as KMZ files that needed to be converted to GeoJSON 
+							format. The KMZ file uploaded to My Google Maps enabled the directions, stops, start and finish points 
+							to be displayed and were converted to KML. The KML files were then converted into a GeoJSON format that 
+							could be easily used with Mapbox through Mapbox’s own 
+							<a href="https://mapbox.github.io/togeojson/" target="_blank" class="links">online converter</a>. The final result 
+							derived from the clients KMZ files, were two GeoJSON files with directions of the route and all planned stops.</p>
 					
 					<img src="images/to_geojson.PNG" alt="Mapbox to GeoJSON tool">
 					<img src="images/start.png" alt="Start Icon">
 					<img src="images/stop.png" alt="Stop Icon">
 					<img src="images/finish.png" alt="Finish Icon">
+
+					<h2>Custom Base Map Style</h2>
 							
-							<p>After looking at options to have Live Tracking and consulting with the Advisor 
-							for the project, it was found that integrating live tracking onto a webpage would 
-							not be feasible as live tracking needs a designated App. This was found to 
-							be outside the scope of this particular project for the Web GIS Development 
-							course and for the product that is going to be built for The Liberty Project. 
-							Upon finding out this information, the team set off to find alternative 
-							solutions to solve the Problem Statement.</p>
+							<p>A custom map style was created using the feature, Mapbox Studio, to fully customize the entire look of the map 
+								to ensure it met the Client’s design needs. The style was published as a URL and is referenced in the JavaScript 
+								file along with an API access Token for the base map style to be displayed on the web map. Map style rendering 
+								is additionally supported with a Mapbox JavaScript Library known as Mapbox GL JS.</p>
 					
 					
 					<h2>Creating Chapters</h2>
-						<p>While exploring alternatives to live tracking that would still carry the essence of visually 
-							showing where the riders were on the designated course or how the event was progressing 
-							over the days to increase public engagement and interest of the event, the team generated 
-							multiple solutions that could be used for the event's webpage through Mapbox functionalities.
-							One solution uses interactive storytelling and the other uses animated map tracking.   
-							The team also found two other notable discoveries - one using Mapbox 
-							to animate a point along a route and another through social media widgets.These are discussed 
-							in more detail on the <a href="https://hollieegg.github.io/web1/99/vanritto/solutions.html"  target="_blank" class="links">Solutions</a> and 
-							<a href="https://hollieegg.github.io/web1/99/vanritto/discoveries.html"  target="_blank" class="links">Discoveries</a> pages. 
-							The team set off once again to  research and explore these options and creating customized 
-							working versions working concepts of each idea.</p>
+						<p>Mapbox Scrollytelling works by implementing a series of Chapters along a path. To tell The Liberty Project fundraiser 
+							story, chapters coincide with the start and stop points, the scheduled stops along the way and overviews of the 
+							entire route. The scrollytelling map makes use of the flyTo zoom feature, creating a flying motion when scrolling 
+							between locations on the map. The content for the chapters is stored in a GItHub repository and inserted into the 
+							JavaScript file for each chapter. Images are linked to the content in boxes in a similar way. The styling for the 
+							content is managed by the CSS file. 
+							</p>
 					
-					<h2>Code Customization</h2>
-						<p>While exploring alternatives to live tracking that would still carry the essence of visually 
-							showing where the riders were on the designated course or how the event was progressing 
-							over the days to increase public engagement and interest of the event, the team generated 
-							multiple solutions that could be used for the event's webpage through Mapbox functionalities.
-							One solution uses interactive storytelling and the other uses animated map tracking.   
-							The team also found two other notable discoveries - one using Mapbox 
-							to animate a point along a route and another through social media widgets.These are discussed 
-							in more detail on the <a href="https://hollieegg.github.io/web1/99/vanritto/solutions.html"  target="_blank" class="links">Solutions</a> and 
-							<a href="https://hollieegg.github.io/web1/99/vanritto/discoveries.html"  target="_blank" class="links">Discoveries</a> pages. 
-							The team set off once again to  research and explore these options and creating customized 
-							working versions working concepts of each idea.</p>
+					<h2>Customization</h2>
+						<p>For the Route to be displayed on the web map JavaScript is used by adding the source information as a layer referencing 
+							the GeoJSON. The Stops have been implemented in the same way as the Route. To further enhance the design of the web map, 
+							custom icons and labels were produced. The Icons displayed for the stops along the journey have been fully created using 
+							Adobe Illustrator. The start and finish Icons however, were sourced from <a href="https://www.freepik.com/" target="_blank" class="links">Freepik</a> with edits 
+							made in Adobe illustrator. Extra steps were needed to display the customized icons and labels, in both HTML and Javascript 
+							in order to put the icons and labels on the map.  </p>
 				
 				<h2>Technology Used</h2>
 					<div class="rowp">
 						<a href="https://mapbox.com/" target="_blank"><img src="images/mapbox.PNG" alt="Mapbox" height="70"></a>
 						<a href="https://www.google.ca/maps/about/mymaps/" target="_blank"><img src="images/googlemapslogo.png" alt="Google MyMaps" height="70"></a>
 						<a href="https://www.adobe.com/ca/products/illustrator.html" target="_blank"><img src="images/IllustratorLogo.png" alt="Abobe Illustrator" height="70"></a>
-
+						<a href="https://github.com/" target="_blank"><img src="images/GitHub_Logo.png" alt="GitHub" height="70"></a>
+					
 					</div>
 
 				</div>
