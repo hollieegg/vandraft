@@ -38,8 +38,6 @@ function myFunction() {
 // code for button on Contact Us page submit popup
 function myFunctionpop() {
   alert("Thank you");
-  window.open('mailto:vanritto.2021@gmail.com');
-
 }
 
 function emailonpop(id) {
