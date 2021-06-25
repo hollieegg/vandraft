@@ -38,7 +38,7 @@ function myFunction() {
 // code for button on Contact Us page submit popup
 function myFunctionpop() {
   alert("Thank you");
-  window.open('mailto:r.estanboli87@gmail.com');
+  window.open('mailto:vanritto.2021@gmail.com');
 
 }
 
