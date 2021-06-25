@@ -66,70 +66,48 @@
 							donate and register for the event, and develop a donor database system to allow proper management 
 							of donor information for future use. </p>
 				
-<<<<<<< HEAD
-							<img src="images/projectwork.png" alt="Work flow diagram" width=500px; height=400px;>
-=======
 					<img src="images/projectwork2.png" alt="Ride 4 Freedom Project Workflow">
->>>>>>> 4c400d6a84d993cfd47182457ab622988c853f3c
 				
 					<p> The project was built on the foundation of four academic requirements:</p>
-					<p> 1. Data Acquisition & Preprocessing</p>
+					<!--<p> 1. Data Acquisition & Preprocessing</p>
 					<p> 2. Database Development & Processing</p>
 					<p> 3. Programming & Customization </p>
-					<p> 4. Visualization</p>
+					<p> 4. Visualization</p>-->
 				
-<<<<<<< HEAD
-					<img src="images/requirements.png" alt="Academic Requirements" width=600px; height=300px;>
-=======
 					<img src="images/requirements2.png" alt="Academic Requirements and Deliverables">
->>>>>>> 4c400d6a84d993cfd47182457ab622988c853f3c
 			</div>
 	
 		
 			<h1>DATABASE DEVELOPMENT</h1>
 			<div class="content5">
-				
 				<div>
 					<h2>Creating test data</h2>
-				
-						
-						<p>To have a way for people to be able view where the riders are on the course for a 
-							multi-day bike fundraising event to increase engagement for the event as is it occurring.</p>
-						
-							<img src="images/projectwork.png" alt="Work flow diagram" width=500px; height=400px;>
-						
+						<p>Donorbox and Evenbright both collect information related to the fundraising activity. Eventbrite collects 
+							registrant information, and Donorbox collects donor and donation information, both datasets can be accessed 
+							by the Client by downloading as a CSV spreadsheet. The Client forwarded empty Donorbox and Eventbrite CSV 
+							files as an example to Vanritto which allowed the team members to build the database required for the project. 
+							The headers from the empty CSV files were loaded into the online data generation site, Mockaroo,  the data 
+								types for each attribute field were set, allowing us to export unique data for testing and development.</p>
+							<img src="images/mockaroo.png" alt="Mockaroo">
+												
 					<h2>Buisness Rules & Primary Tables</h2>
-						
-						<p>There is no way for users to see where the riders are on the 
-							event course for the fundraiser event while it is occurring. In addition, 
-							there is limited funding from the organization to build a solution to solve
-							the current problem.</p>
+						<p>The Client required an Access database to enable storage and query of donor and registrant data and tracking, 
+							engagement, and advertising. The test data was loaded and four primary tables were developed for the database 
+							based on the Client’s business rules: Donations, Donors, Transactions and Event Shirts.</p>
+							<img src="images/table_develop.png" alt="Database table Development">
 					
-				<div class="rowp">
+					<h2>Establishing the Database Workflow</h2>
+						<p>Data modelling helped illustrate the data flow inside the database. This process allowed us to functionally 
+							extract additional information and to streamline the development of interactive tools to improve the overall 
+							database functionality.</p>
+							<img src="images/er_diagram.jpg" alt="Work flow diagram">
 					
-					
-					<a href="https://www.google.ca/maps/about/mymaps/" target="_blank"><img src="images/google.PNG" alt="Access"></a>
-					<a href="https://www.strava.com/" target="_blank"><img src="images/strava.PNG" alt="Mockaroo"></a>
-				</div>
-						
-					<h2>What are the consequences if a solution is not created?</h2>
-						
-						<p>If users cannot view the riders on the course during the event, there may be loss interest 
-							while event is occurring which may result in an overall loss of day-of donations and engagement 
-							from home. This is a limited time event so the more excitement that is generated on the days 
-							that the event is occurring will potentially lead to more donations and as well as 
-							knowledge of the organization itself within the general public.</p>
-					
-					<img src="images/db_code.png" alt="Database VBA Code">
-					<img src="images/er_diagram.png" alt="ER Diagram">
-					<img src="images/table_develop.png" alt="Database table Development">
-					<img src="images/mockaroo.png" alt="Mockaroo">
-						
-					<h2>What is the teams proposal?</h2>
-						
-						<p>The team will generate a web map that will showcase where the riders 
-							are on the course for the multi-day bike fundraiser event, 
-							OnTheMoveFundraising, for The Liberty Project.</p>		
+					<h2>Customization for Maximum Efficiantcy</h2>
+						<p>The Graphic User Interface (GUI) was designed to streamline the functions of the database based on the ETL workflow.
+							The GUI uses custom programmed buttons to run and automate all steps of the ETL for the client. The GUI was designed 
+							using forms tools and buttons in the Access database and manipulating their events to run programmed functions using 
+							Microsoft Visual Basic for Applications (VBA).</p>
+							<img src="images/db_code.png" alt="Database VBA Code">		
 				</div>
 			</div>
 
