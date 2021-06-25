@@ -38,6 +38,8 @@ function myFunction() {
 // code for button on Contact Us page submit popup
 function myFunctionpop() {
   alert("Thank you");
+  window.open('mailto:r.estanboli87@gmail.com');
+
 }
 
 
