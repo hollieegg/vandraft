@@ -42,5 +42,18 @@ function myFunctionpop() {
 
 }
 
+function emailonpop(id) {
+  if (id=="restanbo"){
+  window.open('mailto:r.estanboli87@gmail.com');}
+  else if (id=="jenn"){
+    window.open('mailto:jennifer.debono79@gmail.com');}
+  else if (id=="dana"){
+    window.open('mailto:dana.m.mckee@gmail.com');}
+  else if (id=="hollie"){
+    window.open('mailto:hollie.eggleton987@gmail.com');}
+  else{
+    alert("Thank you"); 
+  }
 
+}
 
