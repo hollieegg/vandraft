@@ -3,7 +3,7 @@
   <head>
     <title>VANRITTO</title>
     <!-- Link to the CSS Style sheet -->
-    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="style2.css" type="text/css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -68,19 +68,52 @@
       >
     </div>
 
-    <!-- CONTENT -->
-    <div class="rowp">
-      <button onclick="document.location='methodology.html'">Overview</button>
-      <button onclick="document.location='methodology-database.html'">
-        Database
-      </button>
-      <button onclick="document.location='methodology-webpage.html'">
-        Webpage
-      </button>
-      <button onclick="document.location='methodology-webmap.html'">
-        Web Map
-      </button>
-    </div>
+    <div class="container">
+  <div class="box">
+    <img src="https://source.unsplash.com/1000x800">
+    <span>CSS</span>
+  </div>
+  <div class="box">
+    <img src="https://source.unsplash.com/1000x802">
+    <span>Image</span>
+  </div>
+  <div class="box">
+    <img src="https://source.unsplash.com/1000x804">
+    <span>Hover</span>
+  </div>
+  <div class="box">
+    <img src="https://source.unsplash.com/1000x806">
+    <span>Effect</span>
+  </div>
+</div>
+<div>
+    <ul>
+      <li> DATABASE
+        <h2>Creating Test Data</h2>
+          <p>
+            Donorbox and Eventbrite are the third-party web applications used
+            for the event for to allow the public to donate and register for the
+            event. The applications collect information related to the donors
+            which are accessed by the Client by downloading as CSV spreadsheet.
+            The Client forwarded empty Donorbox and Eventbrite CSV files as an
+            example to the team to build the database required for the project.
+            The headers from the empty CSV files were loaded into the online
+            data generation site, Mockaroo where the data types for each
+            attribute field were set, which allowed the team to export unique
+            data for testing and development.
+          </p>
+          <img src="images/mockaroo.png" alt="Mockaroo" />
+
+       
+      
+         </li>
+      
+
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </div>
+
     <!-- HOLLIE TESTING -->
     <article class="accordion">
       <section id="acc1">
@@ -114,10 +147,6 @@
         <h2><a href="#acc3">Title Three</a></h2>
         <p>This content appears on page 3.</p>
       </section>
-      <section id="acc4">
-        <h2><a href="#acc4">Title Four</a></h2>
-        <p>This content appears on page 4.</p>
-      </section>
     </article>
 
     <div class="tabs">
@@ -125,7 +154,7 @@
         <input type="checkbox" id="chck1" />
         <label class="tab-label" for="chck1">Creating Test Data</label>
         <div class="tab-content">
-          >
+          <h2>Creating Test Data</h2>
           <p>
             Donorbox and Eventbrite are the third-party web applications used
             for the event for to allow the public to donate and register for the
@@ -135,9 +164,44 @@
             example to the team to build the database required for the project.
             The headers from the empty CSV files were loaded into the online
             data generation site, Mockaroo where the data types for each
-            attribute field were set, allowing us to export unique data for
-            testing and development.
+            attribute field were set, which allowed the team to export unique
+            data for testing and development.
           </p>
+          <img src="images/mockaroo.png" alt="Mockaroo" />
+
+          <h2>Buisness Rules & Primary Tables</h2>
+          <p>
+            The Client requested an Access database to enable storage and query
+            of donor and registrant data and tracking, engagement, and
+            advertising. Once the test data was loaded into the database, four
+            primary tables were developed based on the Client’s business rules:
+            Donations, Donors, Transactions and Event Shirts.
+          </p>
+          <img
+            src="images/table_develop.png"
+            alt="Database table Development"
+          />
+
+          <h2>Establishing the Database Workflow</h2>
+          <p>
+            Data modelling helped illustrate the data flow inside the database.
+            This process allowed the team to functionally extract additional
+            information and to streamline the development of interactive tools
+            to improve the overall database functionality.
+          </p>
+          <img src="images/er_diagram.jpg" alt="Work flow diagram" />
+
+          <h2>Customization for Maximum Efficiency</h2>
+          <p>
+            The Graphic User Interface (GUI) was designed to streamline the
+            functions of the database based on the data transfer process (ETL)
+            workflow. The GUI uses custom programmed buttons to run and automate
+            all steps of the ETL process for the client. The GUI was designed
+            using forms tools and buttons in the Access database and
+            manipulating their events to run programmed functions using
+            Microsoft Visual Basic for Applications (VBA).
+          </p>
+          <img src="images/db_code.png" alt="Database VBA Code" />
           <img src="images/mockaroo.png" alt="Mockaroo" />.
         </div>
       </div>
@@ -147,12 +211,22 @@
         <div class="tab-content">Your accordion contents</div>
       </div>
     </div>
-
+ 
     <h1>DATABASE</h1>
-    <div class="content5">
-      <!--<h1>DATABASE DEVELOPMENT</h1>-->
-      <div class="content5">
-        <div>
+    
+    </div>
+    <div class="large-12">
+
+      <div class="c-tabs c-tabs-content">
+        <input  id="c-tab-11" name="c-tabs-3" type="radio" checked>
+        <label for="c-tab-11">DATABASE</label>
+        <input  id="c-tab-12" name="c-tabs-3" type="radio">
+        <label for="c-tab-12">WEB PAGE</label>
+        <input  id="c-tab-13" name="c-tabs-3" type="radio">
+        <label for="c-tab-13">Radio 3</label>
+       
+
+        <div id="c-content-11" class="c-content">
           <h2>Creating Test Data</h2>
           <p>
             Donorbox and Eventbrite are the third-party web applications used
@@ -202,8 +276,62 @@
           </p>
           <img src="images/db_code.png" alt="Database VBA Code" />
         </div>
+        <div id="c-content-12" class="c-content">
+          <h2>Squarespace Web Design Tools</h2>
+          <p>To build the Event Webpage on the Client’s website on Squarespace, the team utilized Squarespace’s built-in web design tools.
+          This included the Page Builder tools where the main webpage was generated using the Index tool and Add Section tool 
+          to develop 5 main sections. The Basic Tools such as Text, Button, Image, Spacer, Embed, and Code Block and Integration tool, 
+          Instagram, were then used to develop elements within each section. </p>
+        
+        <img src="images/basictools.png" alt="Squarespace Basic Web Design Tools">
+            
+        <h2>CSS Customization</h2>
+          <p>Next, the team worked to customize the design of the webpage to make things fit and work properly beyond the default Squarespace settings.
+          This was done using Custom CSS within the CSS Editor window on various elements such as setting the Web Map 
+          dimensions to span the width of the webpage to allow it to be a centre piece of the page, making a pop-up window to open the Web Map for 
+          users that may be experiencing technical difficulties, ensuring the size of the Donorbox widget and top banner sit the page properly, 
+          have the page display proper responsive design, as well as enhancements to the Buttons, Links.</p>
+      
+        <img src="images/csseditor3.PNG" alt="CSS Editor Window">
+          
+        <h2>Visualization</h2>
+          <p>The design of the webpage was developed to be user-friendly and intuitive.
+          It is designed into 5 clear sections with Donate and Register Button links integrated into each section to allow 
+          the user the easy ability to donate or register for the event wherever they are on the page.
+          Client branding such as font and colour was used within the design of the webpage along with 
+          complimentary colours, which was also used in the design of the web map.
+          The webpage was also styled to match the Client’s overall website look and feel so it blends in with 
+          the rest of their webpages. Additionally, the webpage was designed to be responsive for all devices and 
+          follow web accessibility guidelines.
+          </p>
+      
+        <img src="images/colours3.PNG" alt="Colour Blocks">
+      
+        <h2>Third-Party Applications</h2>
+          <p>Third-party applications were implemented into the Event webpage to build a fully functional digital platform that checked off all the boxes
+            that the Client wanted and needed for this fundraising event. This included Donorbox for safe online donation collection, Eventbrite for event registration,  
+            and My Virtual Mission for mileage tracking and live tracking of event registrants. </p>
+          <p> <b>My Virtual Mission was key to the event now being 100% online as a virtual event instead of in person.</b> Event registrants are emailed a link to join the Ride 4 Freedom 
+            mission on My Virtual Mission once they register for the event through Eventbrite where they will then have access to the My Virtual Mission Portal. 
+            On there, they can input distance they completed in their own neighbourhood using their rides tracked in Strava, which will then translate to distance on the ride.
+            Additionally, the public will be able view live tracking of where registrants are on the route with a public map from My Virtual Mission.
+            </p>
+        <!--add images for links -->
+        <p><a href="https://donorbox.org/ride-for-freedom?default_interval=o">Donorbox</a></p>
+        <p><a href="https://www.eventbrite.ca/e/ride-for-liberty-virtual-challenge-fundraiser-tickets-155964242247">Eventbrite</a></p>
+        <p><a href="https://www.myvirtualmission.com/external/map/118579">My Virtual Mission</a></p>
+
+        </div>
+        <div id="c-content-13" class="c-content">
+          Radio 3
+        </div>
+        
       </div>
 
+    </div>
+    <div class="large-12">
+
+ 
       <!-- FOOTER-->
       <div>
         
