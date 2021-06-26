@@ -1,4 +1,3 @@
-
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 // function myFunction() {
@@ -21,20 +20,19 @@ toggle between hiding and showing the dropdown content */
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav" ) {
+  if (x.className === "topnav") {
     x.className += " responsive";
-    
-    if (document.getElementById("headertitle")!= null){
-      document.getElementById("headertitle").style.display="none"
+
+    if (document.getElementById("headertitle") != null) {
+      document.getElementById("headertitle").style.display = "none";
     }
   } else {
     x.className = "topnav";
-    if (document.getElementById("headertitle")!= null){
-    document.getElementById("headertitle").style.display="block"}
-
+    if (document.getElementById("headertitle") != null) {
+      document.getElementById("headertitle").style.display = "block";
+    }
   }
 }
-
 
 //https://www.w3schools.com/js/js_events.asp
 // code for button on Contact Us page submit popup
@@ -43,17 +41,15 @@ function myFunctionpop() {
 }
 
 function emailonpop(id) {
-  if (id=="restanbo"){
-  window.open('mailto:r.estanboli87@gmail.com');}
-  else if (id=="jenn"){
-    window.open('mailto:jennifer.debono79@gmail.com');}
-  else if (id=="dana"){
-    window.open('mailto:dana.m.mckee@gmail.com');}
-  else if (id=="hollie"){
-    window.open('mailto:hollie.eggleton987@gmail.com');}
-  else{
-    alert("Thank you"); 
+  if (id == "restanbo") {
+    window.open("mailto:r.estanboli87@gmail.com");
+  } else if (id == "jenn") {
+    window.open("mailto:jennifer.debono79@gmail.com");
+  } else if (id == "dana") {
+    window.open("mailto:dana.m.mckee@gmail.com");
+  } else if (id == "hollie") {
+    window.open("mailto:hollie.eggleton987@gmail.com");
+  } else {
+    alert("Thank you");
   }
-
 }
-
