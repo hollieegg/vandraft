@@ -153,11 +153,11 @@ h1 {
 
 /************** NAVBAR **************/
 
-
   .navbar {
     overflow: hidden;
     background-color: #58595c;
     margin-top: 0;
+    
   }
   
   .navbar a {
