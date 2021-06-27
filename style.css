@@ -1,5 +1,10 @@
 /* METHODOLOGY */
-
+p:hover{
+  font-size: larger;
+}
+input:hover{
+  font-size: larger;
+}
 .tabs {
   left: 50%;
   transform: translateX(-50%);
