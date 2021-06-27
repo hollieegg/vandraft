@@ -696,12 +696,7 @@ h4 {
   color: #58595c;
   font-size: 1.1vw;
 }
-@media screen and (max-width: 1400px) {
-  .column {
-    width: auto;
-    margin: 0.3%;
-  }
-}
+
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -715,26 +710,24 @@ h4 {
   transition-delay: 0.5s;
 }
 
-@media screen and (max-width: 1400px) {
-  .overlay {
-    overflow: auto;
-  }
-}
-
 .overlay p {
   padding-top: 8%;
   padding-right: 10%;
   padding-bottom: 1%;
   padding-left: 10%;
   font-family: "arial", sans-serif;
-  font-size: 1.1em;
+  font-size: medium;
   text-align: left;
   overflow: auto;
   color: white;
   margin-top: 6%;
   line-height: 1.8;
 }
+.overlay p:hover {
 
+  font-size: large;
+
+}
 .aboutusIcon {
   /*display: inline-grid;*/
   margin-right: 4%;
@@ -769,49 +762,13 @@ h4 {
 .fa-envelope:hover {
   color: #58595c;
 }
-@media screen and (max-width: 1000px) {
-  .overlay p {
-    padding-left: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 10%;
-    font-size: medium;
-  }
-  .overlay p:hover {
-    padding-left: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 10%;
-    font-size: large;
-  }
-}
 
-@media screen and (max-width: 1400px) {
-  .column h3,
-  h4 {
-    font-size: 2vw;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .column h3,
-  h4 {
-    font-size: 2.5vw;
-  }
-}
 .column img {
   width: 90%;
   height: 90%;
   margin-bottom: 10%;
 }
-@media screen and (max-width: 1380px) {
-  .column img {
-    width: 25%;
-    height: 25%;
-    margin-bottom: 2.8%;
-  }
-}
 
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slidetop*/
 .column:hover .overlay {
   bottom: 0;
   height: 100%;
@@ -820,13 +777,84 @@ h4 {
 .column:hover {
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);
 }
-
-@media screen and (max-width: 1380px) {
-  .row {
-    display: block;
+@media screen and (max-width: 1400px) {
+  .column h3,
+  h4 {
+    font-size: 1.5vw;
   }
 }
+@media screen and (max-width: 1400px) {
+  .overlay {
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .column {
+    width: auto;
+    margin: 4%;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .row {
+   /*display: block;*/
+     display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4%;
 
+  }
+  .overlay p {
+    padding-left: 8%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    padding-right: 8%;
+    font-size: small;
+  }
+  .overlay p:hover {
+    padding-left: 8%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    padding-right: 8%;
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .column img {
+    width: 25%;
+    height: 25%;
+    margin-bottom: 2.8%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .column h3,
+  h4 {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .row {
+   /* display: block;*/
+    display: grid;
+  grid-template-columns: 1fr;
+  padding: 0%;
+
+  }
+}
+@media screen and (max-width: 1000px) {
+  .overlay p {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    font-size: small;
+  }
+  .overlay p:hover {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    font-size: medium;
+  }
+}
 /************** PROJECT *******************/
 
 .content5 {
@@ -1083,6 +1111,16 @@ h4 {
 
 /********** CONTACT US ************/
 
+.rowC {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1%;
+}
+@media screen and (max-width: 1380px) {
+  .rowC {
+    display: block;   
+  }
+}
 .content3 {
   padding: 2px;
   background-color: #88abc6;
