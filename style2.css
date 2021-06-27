@@ -957,7 +957,7 @@ h4 {
 
 .rowd {
   width: 31%;
-  float: left;
+  /*float: left;*/
   padding: 1%;
   background-color: #58595c09;
   height: 850px;
