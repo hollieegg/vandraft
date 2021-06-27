@@ -331,7 +331,7 @@ h3 {
 
 h2,
 h5 {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   font-weight: 700;
 }
@@ -1372,4 +1372,40 @@ input[type="submit"] {
     padding: 1% 1%;
     max-width: 100%;
   }
+}
+
+/*************************content solution*****************************/
+.content2s {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  line-height: 150%;
+}
+.content2s h1 {
+  margin-bottom: 5%;
+}
+.content2s h2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.content2s p {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.imageimage2 {
+  max-width: 100%;
+  width: 100%;
+  height: 75vh;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 15%;
+}
+.content2s img {
+  max-width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
 }
