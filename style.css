@@ -94,10 +94,10 @@
   animation-iteration-count: 1;
   line-height: 1.4;
 }
-.tabs .content section h2 {
+/* .tabs .content section h2 {
   color: #88abc6;
   display: none;
-}
+} */
 .tabs .content section h2::after {
   content: "";
   position: relative;
@@ -1247,7 +1247,6 @@ input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
-  
 }
 
 @media screen and (min-width: 3000px) {
