@@ -35,10 +35,12 @@
   padding: 0 10px;
   text-align: center;
 }
+
+/* Tabs label/text */
 .tabs ul li label {
   transition: all 0.3s ease-in-out;
-  color: #929daf;
-  padding: 5px auto;
+  /* color: #929daf;
+  /* padding: 5px auto; */
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
@@ -46,6 +48,18 @@
   transition: all 0.2s ease-in-out;
   white-space: nowrap;
   -webkit-touch-callout: none;
+
+  /* liberty headings */
+  color: #fff;
+  font-size: 15px;
+  background-color: #88abc6;
+  /* padding: 8px 12px; */
+  /* text-align: center;
+  margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 70px; */
+  letter-spacing: 4px;
+  margin-bottom: 10px;
 }
 .tabs ul li label br {
   display: none;
@@ -75,7 +89,7 @@
 }
 .tabs .slider .indicator {
   position: relative;
-  width: 50px;
+  width: 60px;
   max-width: 100%;
   margin: 0 auto;
   height: 4px;
