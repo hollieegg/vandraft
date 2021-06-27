@@ -893,18 +893,18 @@ h4 {
   text-align: left;
   line-height: 150%;
   /*height: 80vh; 
-}*/
+}
 
 .content2 {
   padding-left: 3%;
-  /* padding-right: 2.5%; */
+ 
   margin-top: 50px;
   margin-bottom: 100px;
   width: 95%;
   overflow: hidden;
   text-align: left;
   line-height: 150%;
-  /* height: 80vh; */
+
 }
 .content2 h1 {
   margin-bottom: 5%;
@@ -916,7 +916,7 @@ h4 {
 .content2 p {
   padding-left: 15%;
   padding-right: 15%;
-}
+}*/
 .textleft {
   /* background-color: #f0f0f07c; */
   background-color: #58595c09;
