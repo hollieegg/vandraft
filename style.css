@@ -856,41 +856,76 @@ h4 {
   }
 }
 /************** PROJECT *******************/
+.mainproject{
+  
+  display: grid;
+  grid-template-columns: 1fr ;}
+  .content5 {
+    margin: 2%;
+    /* margin-left: 5%; */
+    padding: 0;
+    /* padding-bottom: 3%; */
+    overflow: hidden;
+    text-align: left;
+    line-height: 150%;
+    /* background-color: #58595c09; */
+    border: 5px solid #58595c09;
+    width: 95%;
+    position: relative;
+}
 
-.content5 {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding: 12px;
-  width: 77%;
-  overflow: hidden;
-  text-align: left;
-  line-height: 150%;
+.content5 img {
+  float: left;
+  padding: 3%;
+  padding-top: 0;
+  width: 50%;
+  height: auto;
 }
 
 .content5 h2 {
   text-align: left;
   font-size: 20px;
+  padding-left: 5%;
 }
 
-@media screen and (max-width: 900px) {
+ .content5 h1 {
+  text-align: center;
+  /* width: 100%; */
+  /* padding: 2%; */
+  margin-bottom: 5%;
+  /* margin-top: 0%; */
+}
+  .content5 h4 {
+    text-align: left;
+ }
+ .content5 p {
+  margin-left: 3%;
+  padding-right: 3%;
+  height: auto;
+  font-size: larg;
+  line-height: 1.6;
+  padding-top: 2%;
+}
+@media screen and (max-width:900px) {
   .content5 h1 {
     font-size: x-small;
     padding: 1%;
     text-align: center;
-    width: 100%;
+    width:100%;
     padding: 4%;
-    margin-bottom: 10%;
-  }
-}
-
+    margin-bottom: 10%; }}
 .rowp {
-  padding-left: 20%;
-  padding-top: 30px;
-  overflow: hidden;
-  width: 80%;
-}
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  margin-bottom: 40px;}
+.rowp a:hover {
+  zoom: 105%;
+  transition: 5s ease;}
+
+
+
 /************website***********************/
 #websitebanner {
   max-width: 100%;
