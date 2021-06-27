@@ -75,7 +75,7 @@
 .tabs ul li label:focus,
 .tabs ul li label:active {
   outline: 0;
-  color: #bec5cf;
+  color: rgb(134, 134, 134);
 }
 .tabs ul li label:hover svg,
 .tabs ul li label:focus svg,
@@ -108,10 +108,10 @@
   animation-iteration-count: 1;
   line-height: 1.4;
 }
-/* .tabs .content section h2 {
+.tabs .content section h2 {
   color: #88abc6;
   display: none;
-} */
+}
 .tabs .content section h2::after {
   content: "";
   position: relative;
@@ -122,6 +122,8 @@
   margin-top: 5px;
   left: 1px;
 }
+
+/* style when tab is active/open */
 .tabs
   input[name="tab-control"]:nth-of-type(1):checked
   ~ ul
@@ -129,6 +131,7 @@
   > label {
   cursor: default;
   color: #88abc6;
+  background-color: white;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(1):checked
@@ -163,6 +166,7 @@
   > label {
   cursor: default;
   color: #88abc6;
+  background-color: white;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(2):checked
@@ -197,6 +201,7 @@
   > label {
   cursor: default;
   color: #88abc6;
+  background-color: white;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(3):checked
@@ -231,6 +236,7 @@
   > label {
   cursor: default;
   color: #88abc6;
+  background-color: white;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(4):checked
