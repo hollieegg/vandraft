@@ -850,14 +850,14 @@ h4 {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 10%;
-    font-size: small;
+    font-size: medium;
   }
   .overlay p:hover {
     padding-left: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 10%;
-    font-size: medium;
+    font-size: x-large;
   }
 }
 /************** PROJECT *******************/
